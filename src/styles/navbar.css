@@ -1,0 +1,45 @@
+
+.navbar{
+    position: fixed;
+    z-index: 20;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid gray;
+    vertical-align: middle;
+}
+
+.icon{
+    color: rgb(100, 100, 100);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+.logoNavBar{
+    width: 80px;
+    margin:10px;
+}
+.navBarMsg{
+    width: 300px;
+    font-size: 1.2rem;
+    color: rgb(81, 81, 81);
+    align-items: center;
+}
+.icons_main_container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_container{
+    border-left: 1px solid gray;
+    width: 25%;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 20px;
+}

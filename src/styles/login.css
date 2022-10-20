@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --green: #0AA65D;
+    --light_green: #7cc0a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+button{
+    width: 7rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: brown;
+    color: white;
+    font-size: 1.1rem;
+    margin: 0 5px;
+}
+
+.backphoto {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -10;
+  }
+
+
+
+.login_container{
+    position: absolute;
+    top: 60px;
+    background-color: rgba(201, 76, 76, 0.0);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.input_container{
+    background-color: rgba(201, 76, 76, 0.0);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.login_credential{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.label_login{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.input_login{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+}
+
+
+
+.formClass_login{
+        width: 800px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content:space-between;
+        align-items: center;
+        margin-top: 200px;
+        padding: 10px;
+        background-color: rgba(84, 196, 47, 0.5);
+        border-color: black;
+        border: 5px solid black;
+}
+
+.select_period{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+}
+
+.logoAgro{
+    position: absolute;
+    width: 300px;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+    
+}
+
+.error_login{
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+

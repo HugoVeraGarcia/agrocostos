@@ -1,0 +1,130 @@
+:root {
+    --primary: #f85555;
+    --white: #ffffff;
+    ---gray: rgb(231, 229, 229);
+  }
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+
+}
+.login{
+    position: fixed;
+    z-index: 10;
+    top: 82px;
+    left: 15vw;
+    padding: 0px;
+    background: var(---gray);
+    border: 2px solid var(---gray);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    transform: scale(0);
+    transition: 0.6s;
+    transform-origin:top;
+
+}
+
+.login.open{
+    transform: scale(1.2);
+}
+.logout_container{
+    left: 62vw;
+    padding: 10px;
+    margin: 0 80px;
+}
+
+.test{
+    width: 200px;
+    background-color: rgb(218, 252, 252);
+    border-radius: 20px;
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.test_data{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    padding: 0 10px ;
+    border: none;
+}
+.buttonTest{
+    background-color: var(--primary);
+    color:var(--white);
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 auto;
+
+}
+.button{
+    background-color: var(--primary);
+    color:var(--white);
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.error{
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.m4rem{
+    margin:  0 0 0 4rem;
+}
+.link{
+    cursor: pointer;
+    text-decoration:underline;
+    color: var(--primary);
+}
+
+.size{
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+@media only screen and (min-width: 1200px){
+    .login{
+        position: fixed;
+        z-index: 10;
+        top: 82px;
+        left: 53vw;
+        padding: 20px;
+        background: var(---gray);
+        border: 2px solid var(---gray);
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        transform: scale(0);
+        transition: 0.6s;
+        transform-origin:top;
+    
+    }
+    .logout_container{
+        left: 62vw;
+        padding: 10px;
+        margin: 0 120px;
+    }
+
+}
